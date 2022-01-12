@@ -15,7 +15,7 @@ def index():
 def refresh_plots():
 
     #connect to db
-    CONNECTION_STRING = "mongodb+srv://owolabioromidayo:thisisdayo99@cluster0.28vgr.mongodb.net/gdp_country?retryWrites=true&w=majority"
+    CONNECTION_STRING = "mongodb+srv://johnd:lifevision@cluster0.28vgr.mongodb.net/CEN414?retryWrites=true&w=majority"
     client = MongoClient(CONNECTION_STRING)
     collection = client['gdp_country']['gdp_country']
     cursor = collection.find()
